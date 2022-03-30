@@ -79,16 +79,16 @@ const Benefits: React.FC = () => {
 					<Image src='/waves.svg' width={591} height={162} />
 				</div>
 
-				<div className='relative rounded-3xl  min-h-[416px] bg-[#FBFBFB] pt-20 px-10 pb-10 md:col-span-2'>
-					<h2 className='text-4xl font-bold tracking-tighter w-64 z-10 inline-block align-middle'>
+				<div className='relative rounded-3xl min-h-[416px] bg-[#FBFBFB] pt-20 px-10 pb-10 md:col-span-2 '>
+					<h2 className='text-4xl font-bold tracking-tighter w-64 align-middle absolute'>
 						Full brand guideline
 					</h2>
 					<img
-						className='z-0 absolute left-1/4 top-0 bottom-0 right-0 w-[670px]'
+						className='block max-w-full max-h-full'
 						src='https://uploads-ssl.webflow.com/615e1039e4188175442dcc09/61601853a694ce186df3c5dc_styleguide.gif'
 						loading='lazy'
 						alt='Logo branding Design Style Guide'
-					></img>
+					/>
 				</div>
 			</div>
 		</Section>
